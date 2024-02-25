@@ -1,0 +1,22 @@
+html {
+    background-color: black;
+    background-image: url('https://cdn.wallpapersafari.com/39/83/kKgoPS.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .contact-icons img {
+    width: 70px;
+    height: 70px;
+    position: relative; /* Ensure positioning context */
+    top: -100px; /* Adjust this value as needed to move the image higher */
+  }
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .centered-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
